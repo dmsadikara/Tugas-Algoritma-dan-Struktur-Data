@@ -1,1 +1,3 @@
-# 1251170123-DimasAdikaraSyamsuddin.md
+# Algoritma Pemesanan Makanan Secara Online via Aplikasi.
+
+## Langkah pertama 
