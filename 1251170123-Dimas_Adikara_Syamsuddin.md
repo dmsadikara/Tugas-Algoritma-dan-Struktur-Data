@@ -20,5 +20,20 @@
  
 # BAGIAN B: ANALISIS PEMILIHAN STRUKTUR DATA
 ## Studi Kasus: Pilihlah struktur data yang paling tepat (Array, Linked List, Stack, Queue, Binary Search Tree, Hash Table, atau Graph) untuk menyelesaikan 3 skenario di bawah ini. Berikan alasan logis mengapa struktur data tersebut dipilih!
+### Skenario 1 (Fitur Fitur Undo / Redo):
+Sebuah aplikasi pengolah kata (Text Editor) membutuhkan fitur untuk membatalkan ketikan terakhir pengguna (Undo) dan mengembalikannya lagi (Redo).
+- Struktur Data: Stack 
+- Alasan: Karena setelah saya baca di jurnal struktur data stack sendiri memiliki sifat atau prinsip LIFO yaitu Last In, First Out elemen terakhir yang dimasukkan adalah elemen pertama yang dikeluarkan. Artinya, operasi penyisipan dan penghapusan hanya terjadi di satu ujung saja dan yang pas banget buat skenario penugasan adalah struktur Stack yang pas dengan fitur undo atau redo, jadi saya tidak perlu mikir ribet soal urusan data, tinggal push aksi baru ke atas dan pop kalau mau di undo.
 
+### Skenario 2 (Peta Navigasi Rute Perjalanan):
+Sebuah aplikasi GPS membutuhkan cara untuk memodelkan lokasi-lokasi kota beserta jalan penghubungnya guna mencari rute tercepat.
+- Struktur Data: Graph
+- Alasan: Karena setelah saya baca di jurnal, Graph adalah struktur data non linear sendiri yang terdiri dari simpul (node) dan sisi (koneksi) yang merepresentasikan hubungan antar objek dan sruktur data Graph cocok dengan skenario penugasan ini, dengan struktur data Graph yang emang secara natural bentuknya udah kayak Graph yang dimana kota menjadi node, jalan menjadi edge yang di kasih bobot seperti jarak atau waktu tempuh, dengan struktur data Graph bisa langsung pake algoritma pencarian rute yang sudah teruji efisien.
+
+### Skenario 3 (Sistem Login Pengguna Berbasis Username):
+Sistem butuh mencari data akun dari jutaan user secara instan berdasarkan Username saat proses login.
+- Struktur Data: Hast Table 
+- Alasan: Karena setelah saya baca di jurnal Hash Table sendiri didefinisikan sebagai struktur data yang digunakan untuk memasukakan, mencari, dan menghapus pasangan kunci nilai dengan cepat dan makannya struktur data Hash Table ini cocok dengan skenario penugasan ini.
+  
 # BAGIAN C: EKSPLORASI ANALOGI MANDIRI
+## 
