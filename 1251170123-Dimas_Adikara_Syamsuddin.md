@@ -1,17 +1,15 @@
 # BAGIAN A: RANCANGAN ALGORITMA DENGAN KARAKTERISTIK LENGKAP
 ## Studi Kasus: Algoritma Pemesanan Makanan Secara Online via Aplikasi.
 ### Langkah-langkah Pemesanan Makananan Secara Online via Aplikasi apapun:
-1. Pengguna memilih satu restoran berdasarkan lokasi rumah dan rating restoran tersebut.
-2. Pengguna memilih satu atau beberapa item menu beserta jumlahnya (qty) di satu restoran yang telah dipilih.
-3. Setelah memilih banyak nya item yang dipilih, sistem akan mengalikan harga setiap item, lalu menjumlahkan seluruh item untuk medapatkan subtotal harga keseluruhan menu yang dipilih.
-4. Sistem menghitung ongkir berdasarkan jarak antara restoran dengan lokasi pengguna (misalnya tarif per km).
-5. Setelah subtotal menu dan ongkos kirim sudah diketahui, sistem akan menjumlahkan subtotal menu dengan ongkos kirim untuk mendapatkan total pembayaran yang harus di bayar pengguna.
-6. Sistem akan menampilkan metode pembayaran apa yang ingin digunakan oleh pengguna, misalnya tunai (COD) dan nontunai. Bila pengguna ingin menggunakan metode pembayaran nontunai sistem akan memvalidasi ketersediaan atau kecukupan saldo pengguna. 
-7. Sistem memproses pembayaran sesuai dengan metode yang dipilih. Jika berhasil, status pesanan diubah menjadi terkonfirmasi dan jika gagal, proses dihentikan dan pengguna diminta untuk mengulang pembayaran.
-8. Setelah seluruh pembayaran sudah terkonfirmasi, sistem akan mengirim rincian pesanan pengguna ke dapur restoran yang telah dipilih sebelumnya untuk diproses.
-
-### Pemenuhan 5 Karakteristik Utama Tugas:
 - Input: Pilihan restoran yang dipiih, pilihan menu beserta jumlahnya, lokasi pengiriman, dan pilihan metode pembayaran.
+- Langkah 1, Pengguna memilih satu restoran berdasarkan lokasi rumah dan rating restoran tersebut.
+- Langkah 2, Pengguna memilih satu atau beberapa item menu beserta jumlahnya (qty) di satu restoran yang telah dipilih.
+- Langkah 3, Setelah memilih banyak nya item yang dipilih, sistem akan mengalikan harga setiap item, lalu menjumlahkan seluruh item untuk medapatkan subtotal harga keseluruhan menu yang dipilih.
+- Langkah 4, Sistem menghitung ongkir berdasarkan jarak antara restoran dengan lokasi pengguna (misalnya tarif per km).
+- Langkah 5, Setelah subtotal menu dan ongkos kirim sudah diketahui, sistem akan menjumlahkan subtotal menu dengan ongkos kirim untuk mendapatkan total pembayaran yang harus di bayar pengguna.
+- Langkah 6, Sistem akan menampilkan metode pembayaran apa yang ingin digunakan oleh pengguna, misalnya tunai (COD) dan nontunai. Bila pengguna ingin menggunakan metode pembayaran nontunai sistem akan memvalidasi ketersediaan atau kecukupan saldo pengguna. 
+- Langkah 7, Sistem memproses pembayaran sesuai dengan metode yang dipilih. Jika berhasil, status pesanan diubah menjadi terkonfirmasi dan jika gagal, proses dihentikan dan pengguna diminta untuk mengulang pembayaran.
+- Langkah 8, Setelah seluruh pembayaran sudah terkonfirmasi, sistem akan mengirim rincian pesanan pengguna ke dapur restoran yang telah dipilih sebelumnya untuk diproses.
 - Output: Pesanan yang terkonfirmasi dan terkirim ke dapur restoran, rincian subtotal menu dan ongkos kirim, dan status pembayaran.
 - Definiteness: Rumus perhitungan subtotal (harga x qty) dan total bayar (subtotal menu + ongkir) sudah pasti nilainya begitu input diketahui.
 - Finiteness: Proses berakhir begitu pesanan berhasil dikirim ke dapur resto (atau berhenti lebih awal jika pembayaran gagal dan pengguna tidak mengulang), bukan berputar terus-menerus.
@@ -51,4 +49,5 @@ Penjelasan:
 - Kelebihan: Dalam jaringan kota, suatu kota bisa terhubung langsung ke banyak kota lain sekaligus lewat jalur yang berbeda-beda dan rute peta jalan raya tidak hanya memberi tahu bahwa lokasi Kota A terhubung ke Kota B, tetapi juga memberi tahu jaraknya dan tingkat kemacetannya dalam sebuah warna.
 - Kekurangan: Jika seseorang tersesat di kota besar dengan ribuan gang dan jalan layang, mencari jalan keluar secara manual sangat membingungkan karena pilihannya terlalu banyak dan rumit. 
 
+# Link Jurnal yang saya baca
 
