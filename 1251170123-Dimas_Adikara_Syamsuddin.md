@@ -36,4 +36,19 @@ Sistem butuh mencari data akun dari jutaan user secara instan berdasarkan Userna
 - Alasan: Karena setelah saya baca di jurnal Hash Table sendiri didefinisikan sebagai struktur data yang digunakan untuk memasukakan, mencari, dan menghapus pasangan kunci nilai dengan cepat dan makannya struktur data Hash Table ini cocok dengan skenario penugasan ini.
   
 # BAGIAN C: EKSPLORASI ANALOGI MANDIRI
-## 
+## Studi Kasus: Pilihlah satu struktur data di bawah ini, kemudian buatlah analogi kehidupan sehari-hari baru yang kreatif dan belum dijelaskan di dalam slide perkuliahan:
+- Pilih salah satu: Array, Linked List, Stack, Queue, Tree, Graph, atau Hash Table.
+- Jelaskan:
+1. Nama analogi kehidupan sehari-hari yang Anda buat.
+2. Bagaimana cara kerja analogi tersebut.
+3. Mengapa analogi tersebut mencerminkan kelebihan atau kekurangan dari struktur data yang dipilih.
+
+Pilihan Struktur Data saya: *Graph* 
+Penjelasan:
+1. Nama Analogi: Seperti peta rute angkutan umum atau kota-kota yang terhubung dengan jalan raya.
+2. Cara kerja: Kota-kota bertindak sebagai titik, dan jalan raya atau rute perjalanan bertindak sebagai penghubung. Analogi ini digunakan untuk aplikasi seperti Google Maps untuk mencari rute tercepat untuk sampai di tempat.
+3. Kelebihan dan kekurangan:
+- Kelebihan: Dalam jaringan kota, suatu kota bisa terhubung langsung ke banyak kota lain sekaligus lewat jalur yang berbeda-beda dan rute peta jalan raya tidak hanya memberi tahu bahwa lokasi Kota A terhubung ke Kota B, tetapi juga memberi tahu jaraknya dan tingkat kemacetannya dalam sebuah warna.
+- Kekurangan: Jika seseorang tersesat di kota besar dengan ribuan gang dan jalan layang, mencari jalan keluar secara manual sangat membingungkan karena pilihannya terlalu banyak dan rumit. 
+
+
