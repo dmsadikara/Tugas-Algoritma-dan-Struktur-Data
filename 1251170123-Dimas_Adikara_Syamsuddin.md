@@ -50,4 +50,6 @@ Penjelasan:
 - Kekurangan: Jika seseorang tersesat di kota besar dengan ribuan gang dan jalan layang, mencari jalan keluar secara manual sangat membingungkan karena pilihannya terlalu banyak dan rumit. 
 
 # Link Jurnal yang saya baca
-
+- Skenario 1 [geeksforgeeks](https://www.geeksforgeeks.org/dsa/introduction-to-stack-data-structure-and-algorithm-tutorials/)
+- Skenario 2 [geeksforgeeks](https://www.geeksforgeeks.org/dsa/introduction-to-graphs-data-structure-and-algorithm-tutorials/)
+- Skenario 3 [geeksforgeeks](https://www.geeksforgeeks.org/dsa/hash-table-data-structure/)
